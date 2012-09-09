@@ -141,36 +141,3 @@ class Gol
 jQuery ->
   gol = new Gol()
   gol.animate()
-
-#runit = (iterations) =>
-  #_.times iterations, (i) =>
-    #console.log("\f")
-    #console.log("---------------------------")
-    #console.log("Iteration ", i)
-    #console.log("---------------------------")
-    #print()
-    #grid = nextGrid()
-
-#print  = =>
-  #printCell = (cell) =>
-    #if cell
-     #"\u2589"
-    #else if cell?
-      #"-"
-    #else
-      #" "
-  #console.log(_.map(grid,
-  #(line) => _.map(line, printCell).join("")).join("\n"))
-
-
-
-#addPattern(fpentomino, 50, 50)
-#addPattern(fpentomino, 20, 10)
-
-# # Blinker
-# grid[5][5] = true
-# grid[5][4] = true
-# grid[5][3] = true
-
-#runit(1000)
-
